@@ -51,7 +51,7 @@
 // console.log(asal.reverse()); // [5, 4, 3, 2, 1]
 // console.log(asal.join("")); // 12345
 // reverse = (str) => [...str].reverse().join("");
-// console.log(reverse("kontol"));
+// console.log(reverse("hello"));
 
 // ========================================================= //
 // let str = "The QuiCk BrOwN Fox";
@@ -91,3 +91,22 @@
 // console.log(nums);
 
 // ========================================================= //
+// function checkType(data) {
+//   if (typeof data === "string") {
+//     return 1;
+//   } else if (typeof data === "number") {
+//     return 2;
+//   } else if (typeof data === "object" || typeof data === "array") {
+//     return 3;
+//   } else {
+//     console.log("masukkan data");
+//   }
+// }
+// console.log(checkType("hello"));
+// console.log(checkType(1000));
+// console.log(checkType([1, 2, 3]));
+// console.log(checkType({ 1: "hello", 2: "world", 3: "!" }));
+
+// ========================================================= //
+// let example = "An apple a day keeps the doctor away";
+// console.log(example.toLocaleLowerCase().replace(/a/g, "*"));
