@@ -55,8 +55,6 @@
 
 // ========================================================= //
 // let str = "The QuiCk BrOwN Fox";
-// const regex1 = /([A-Z])/g;
-// const regex2 = /([a-z])/g;
 // let str2 = [];
 // for (let i = 0; i < str.length; i++) {
 //   if (str[i] === str[i].toUpperCase()) {
@@ -65,6 +63,7 @@
 //     str2.push(str[i].toUpperCase());
 //   }
 // }
+// console.log(str2);
 // console.log(str2.join(""));
 
 // ========================================================= //
@@ -109,4 +108,4 @@
 
 // ========================================================= //
 // let example = "An apple a day keeps the doctor away";
-// console.log(example.toLocaleLowerCase().replace(/a/g, "*"));
+// console.log(example.replace(/a/gi, "*"));

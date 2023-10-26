@@ -51,13 +51,13 @@
 // faktorial(6);
 
 // fibonacci number
-const fibonacci = (n) => {
-  let fibo = [0, 1];
-  for (let i = 2; i <= n; i++) {
-    fibo[i] = fibo[i - 1] + fibo[i - 2];
-  }
-  console.log(fibo);
-  console.log(fibo[n]);
-};
+// const fibonacci = (n) => {
+//   let fibo = [0, 1];
+//   for (let i = 2; i <= n; i++) {
+//     fibo[i] = fibo[i - 1] + fibo[i - 2];
+//   }
+//   console.log(fibo);
+//   console.log(fibo[n]);
+// };
 
-fibonacci(15);
+// fibonacci(15);
