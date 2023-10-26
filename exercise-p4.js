@@ -25,10 +25,10 @@
 // function height(n) {
 //   let count = 1;
 //   let result = "";
-//   for (let i = 1; i <= n - 1; i++) {
+//   for (let i = 0; i < n; i++) {
 //     for (let j = 1; j <= i; j++) {
-//       if (count !== 10) {
-//         result += "0" + count + "  ";
+//       if (count < 10) {
+//         result += "0" + count + " ";
 //       } else {
 //         result += count + " ";
 //       }
@@ -63,13 +63,13 @@
 // function bmi(weight, height) {
 //   const bmi = weight / (height * height);
 //   if (bmi < 18.5) {
-//     console.log("less weight");
+//     console.log(`${weight}kg, ${height}m is less weight`);
 //   } else if (bmi < 25) {
-//     console.log("ideal");
+//     console.log(`${weight}kg, ${height}m is ideal`);
 //   } else if (bmi < 30) {
-//     console.log("very overweight");
+//     console.log(`${weight}kg, ${height}m is very overweight`);
 //   } else {
-//     console.log("obesity");
+//     console.log(`${weight}kg, ${height}m is obesity`);
 //   }
 // }
 // bmi(50, 1.65);
@@ -92,7 +92,7 @@
 // function evenNum(num) {
 //   let result = [];
 //   for (let i = 1; i < num.length; i++) {
-//     if (num[i] % 2 !== 0) {
+//     if (num[i] % 2 === 0) {
 //       result.push(num[i]);
 //     }
 //   }
